@@ -688,6 +688,17 @@ body {
   margin-bottom: 4px;
 }
 
+.modal-form-input-wrapper {
+  position: relative;
+}
+
+.modal-form-input-icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
 /* ======================== /MODAL FORM ======================== */
 
 /* ======================= PORTFOLIO ========================= */
