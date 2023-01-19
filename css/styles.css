@@ -576,6 +576,37 @@ body {
   fill: #f4f4fd;
 }
 
+.footer-form-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-form-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 24px;
+  background-color: transparent;
+  outline: none;
+  width: 264px;
+  height: 40px;
+}
+
+.footer-form-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 /* ======================== /FOOTER ========================  */
 
 /* ======================== MODAL WINDOW ========================  */
@@ -769,6 +800,8 @@ body {
 .modal-form-check:checked + .modal-form-check-desc::before {
   background-color: var(--primary-brand);
   background-image: url(../images/checkbox/checkbox-vector-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .modal-form-check:focus + .modal-form-check-desc::before {
