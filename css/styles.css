@@ -576,6 +576,10 @@ body {
   fill: #f4f4fd;
 }
 
+/* .footer-container-form {
+  margin-left: 80px;
+} */
+
 .footer-form-title {
   font-weight: 500;
   font-size: 16px;
@@ -585,15 +589,22 @@ body {
   margin-bottom: 16px;
 }
 
+.footer-form {
+  width: 264px;
+  height: 40px;
+}
+
 .footer-form-input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  margin-right: 24px;
   background-color: transparent;
   outline: none;
-  width: 264px;
-  height: 40px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: var(--light);
+  width: 100%;
 }
 
 .footer-form-input::placeholder {
@@ -602,9 +613,31 @@ body {
   line-height: 2;
   letter-spacing: 0.04em;
   color: rgba(255, 255, 255, 0.6);
-  padding-left: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+}
+
+.buttom-subscribe-form {
+  display: block;
+  position: relative;
+}
+
+.footer-form-submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+  background-color: var(--primary-brand);
+  border-radius: 4px;
+  position: absolute;
+  left: 100%;
+  bottom: 100%;
+  margin-left: 24px;
+  color: var(--white-text-color);
+}
+
+.footer-form-button-icon {
+  fill: var(--white-text-color);
 }
 
 /* ======================== /FOOTER ========================  */
